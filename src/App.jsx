@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage";
 import VirtualTryOn from "./pages/VirtualTryOn";
 import Wardrobe from "./pages/Wardrobe";
 import AiChatStyler from "./pages/AiChatStyler";
-import ArVision from "./pages/ArVision.jsx";
+import ArVision from "./pages/ARVision.jsx";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
