@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.stroke-text {
+  -webkit-text-stroke: 3px #f8b437;
+  color: transparent;
+}
