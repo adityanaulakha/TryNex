@@ -10,7 +10,7 @@ import TryOnHistory from "../components/NavigationSidebar";
 import CompleteTheLook from "../components/HowToUse";
 import Sidebar from "../components/NavigationSidebar";
 import { div } from "framer-motion/client";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 export default function VirtualTryOn() {
   const navigate = useNavigate();

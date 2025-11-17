@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Sidebar from "../components/NavigationSidebar";
 import { motion } from "framer-motion";
 
