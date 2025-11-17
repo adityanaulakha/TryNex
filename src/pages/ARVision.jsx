@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Sidebar from "../components/NavigationSidebar";
 import { Sparkles, Camera, Cpu, Layers, Zap, View } from "lucide-react";
 
