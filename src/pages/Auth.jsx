@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Eye, EyeOff, Mail, Lock, User } from "lucide-react";
+import { Eye, EyeOff, Mail, Lock, User, ArrowLeft } from "lucide-react";
 import { auth, googleProvider } from "../firebase";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, sendPasswordResetEmail } from "firebase/auth";
 import { useAuth } from "../context/AuthContext.jsx";
@@ -106,8 +106,17 @@ const Auth = () => {
   };
 
   return (
-    <div className="flex h-screen bg-black text-white">
+    <div className="flex h-screen bg-black text-white relative">
       
+      {/* Back Button - Top Left */}
+      <button
+        onClick={() => navigate("/")}
+        className="absolute top-6 left-6 z-10 flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-lg transition-all duration-200 group"
+      >
+        <ArrowLeft className="w-5 h-5 text-white group-hover:-translate-x-0.5 transition-transform" />
+        <span className="text-white font-medium">Back</span>
+      </button>
+
       {/* Left Image Section */}
       <div className="hidden md:flex w-1/2 bg-[#0d0d0d] items-center justify-center ">
         <img
