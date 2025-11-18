@@ -10,9 +10,11 @@ const menu = [
   { id: 4, label: "Web AR Feature", icon: View, path: "/webar" },
 ];
 
-export default function Sidebar() {
+export default function Sidebar({ mobile = false }) {
   return (
-    <aside className="hidden xl:block bg-black w-64 h-full rounded-2xl p-6 shadow-[0_0_15px_rgba(147,51,234,0.25)] border border-white/20">
+    <aside
+      className={`${mobile ? "block" : "hidden xl:block"} bg-black w-64 h-full rounded-2xl p-6 shadow-[0_0_15px_rgba(147,51,234,0.25)] border border-white/20`}
+    >
       <h2 className="text-xl font-bold text-white mb-8">Menu</h2>
 
       <ul className="space-y-3">
