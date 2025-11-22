@@ -46,7 +46,7 @@ TryNex helps users visualize outfits, manage wardrobes, chat with an AI stylist,
 
 ## 🌐 Live Demo
 
-*Add your Vercel / Netlify link here.*
+Link: https://trynex.vercel.app/
 
 ---
 
