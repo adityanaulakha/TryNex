@@ -3,8 +3,8 @@
 **AI-powered virtual try-on, styling assistant & wardrobe management — all in one modern web experience.**
 
 <div align="center">
-  <img src="public/favicon.svg" height="90" />
-  <br />
+  <!-- <img src="public/favicon.svg" height="90" />
+  <br /> -->
   Built with **React + Vite · Firebase Auth · Google Gemini · Modern UI components**
 </div>
 
