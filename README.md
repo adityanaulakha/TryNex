@@ -5,7 +5,7 @@
 <div align="center">
   <!-- <img src="public/favicon.svg" height="90" />
   <br /> -->
-  Built with **React + Vite · Firebase Auth · Google Gemini · Modern UI components**
+  Built with React + Vite · Firebase Auth · Google Gemini · Modern UI components
 </div>
 
 ---
